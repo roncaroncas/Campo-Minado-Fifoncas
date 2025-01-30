@@ -1,9 +1,10 @@
 function trocarNXO(id){
 
-	if document.getElementById(id).textContent == "X"{
+	 window.alert("tchau")
+
+	if (document.getElementById(id).textContent == "X"){
 		document.getElementById(id).textContent = "O";
-	} else if {
-		document.getElementById(id).textContent == "O";
+	} else if (document.getElementById(id).textContent == "O"){
 		document.getElementById(id).textContent = "";
 	} else {
 		document.getElementById(id).textContent = "X";
@@ -12,6 +13,8 @@ function trocarNXO(id){
 }
 
 function newGame(){
+
+	window.alert("tchau")
 
 	/*
 
@@ -54,3 +57,5 @@ function newGame(){
 }
 
 */
+
+}
