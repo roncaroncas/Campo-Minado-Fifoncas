@@ -1,5 +1,14 @@
 function trocarNXO(id){
-	document.getElementById(id).textContent="X";
+
+	if document.getElementById(id).textContent == "X"{
+		document.getElementById(id).textContent = "O";
+	} else if {
+		document.getElementById(id).textContent == "O";
+		document.getElementById(id).textContent = "";
+	} else {
+		document.getElementById(id).textContent = "X";
+	}
+	
 }
 
 function newGame(){
