@@ -1,3 +1,11 @@
+document.addEventListener("DOMContentLoaded", function() {
+	document.querySelectorAll(".clicavel").forEach(td => {
+		td.addEventListener("click", function() {
+			trocarNXO(this.id)
+		});
+	});
+});
+
 function trocarNXO(id){
 
 	if (document.getElementById(id).textContent == "X"){
@@ -32,7 +40,3 @@ function newGame(){}
 			cell.setAttribute('onclick', "trocarNXO('" + cell.id + "')");
 		} 
 	}
-
-	
-
-}

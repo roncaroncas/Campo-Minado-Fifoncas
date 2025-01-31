@@ -1,45 +1,6 @@
 <!DOCTYPE html>
 <html>
-<style>
-
-table{
-  margin: 0px auto;
-  table-layout: fixed;
-  border:1px solid black;
-}
-td {
-  border:1px solid black;
-  width:50px;
-  height:50px;
-  text-align: center;
-}
-h1, h2, p{
-  text-align: center;
-}
-
-  th,
-  td {
-    border: 1px solid black;
-    width: 50px;
-    height: 50px;
-  }
-
-  h1,
-  h2,
-  p {
-    text-align: center;
-  }
-
-  .wrapper {
-    text-align: center;
-  }
-
-  .button {
-    position: absolute;
-    top: 50%;
-  }
-</style>
-
+<link rel="stylesheet" href="style.css">
 <script type="text/javascript" src="scripts.js"></script>
 
 <body>
@@ -50,19 +11,19 @@ h1, h2, p{
 <div>
   <table id="board">
       <tr>
-        <td id="A1" class='clicavel' onclick="trocarNXO('A1')"></td>
-        <td></td>
-        <td></td>
+        <td id="A1" class='clicavel'></td>
+        <td id="A2" class='clicavel'></td>
+        <td id="A3" class='clicavel'></td>
       </tr>
       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td id="B1" class='clicavel'></td>
+        <td id="B2" class='clicavel'></td>
+        <td id="B3" class='clicavel'></td>
       </tr>
       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td id="C1" class='clicavel'></td>
+        <td id="C2" class='clicavel'></td>
+        <td id="C3" class='clicavel'></td>
       </tr>
     </table>
   </div>
