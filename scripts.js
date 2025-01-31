@@ -10,7 +10,7 @@ function trocarNXO(id){
 	
 }
 
-function newGame(){
+function newGame(){}
 
 	
 	// Limpando a tabela antiga
